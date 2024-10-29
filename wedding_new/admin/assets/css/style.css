@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+h2 {
+  margin-left: 20px;
+}
+.content {
+  margin-left: 220px; /* Leave space for the sidebar */
+  padding: 20px;
+}
+
+/* Top Navbar */
+.top-navbar {
+  background-color: #7436bb;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* Side Navbar */
+.side-navbar {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #d12bec;
+  padding-top: 20px;
+}
+.side-navbar a {
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.side-navbar a:hover {
+  background-color: #c82ae0;
+}
+
+.side-navbar .side-header {
+  color: #fff;
+  text-align: center;
+}
+
+/* Card Design */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card i {
+  font-size: 50px;
+  color: #7436bb;
+  padding-bottom: 5px;
+}
+
+.card h4 {
+  font-size: 30px;
+}

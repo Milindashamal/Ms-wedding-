@@ -1,0 +1,9 @@
+
+** Database Name: wedding **
+
+** Admin Login Details **
+
+Email   : admin@example.com
+Password: admin
+
+* admin also login in the same page as user
